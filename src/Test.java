@@ -11,7 +11,7 @@ import org.apache.hadoop.fs.Path;
   
 public class Test{  
     public static void main(String[] args) throws IOException {  
-    	//test git
+    	//test git 111
     	Configuration cfg = new Configuration();
     	FileSystem fs = FileSystem.get(URI.create("hdfs://192.168.74.200:9000"), cfg);
     	InputStream in = null;
